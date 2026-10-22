@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "rube": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@composio/mcp@latest",
+        "start",
+        "--client",
+        "kiro"
+      ],
+      "env": {
+        "RUBE_API_KEY": "${RUBE_API_KEY}"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
